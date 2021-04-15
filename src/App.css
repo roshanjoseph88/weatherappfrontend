@@ -1,0 +1,35 @@
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("./wallhaven-rd7drw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  display: grid;
+  grid-template-areas:
+    "picture search"
+    "picture searchresults"
+    "mainweather subweather"
+    "mainweather footer";
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 0.8fr 1.5fr 1.5fr 0.2fr;
+}
+.app-picture {
+  grid-area: picture;
+}
+.app-mainweather {
+  grid-area: mainweather;
+}
+.app-search {
+  grid-area: search;
+}
+.app-searchresults {
+  grid-area: searchresults;
+}
+.app-subweather {
+  grid-area: subweather;
+}
+.app-footer {
+  grid-area: footer;
+}
