@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
 .App {
+  font-family: "Roboto", sans-serif;
   min-width: 100vw;
-  min-height: 100vh;
+  max-height: 100vh;
   background-image: url("./wallhaven-rd7drw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +15,7 @@
     "mainweather subweather"
     "mainweather footer";
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 0.8fr 1.5fr 1.5fr 0.2fr;
+  grid-template-rows: 0.5fr 1.5fr 1.8fr 0.2fr;
 }
 .app-picture {
   grid-area: picture;
@@ -26,6 +28,7 @@
 }
 .app-searchresults {
   grid-area: searchresults;
+  overflow-y: scroll;
 }
 .app-subweather {
   grid-area: subweather;
