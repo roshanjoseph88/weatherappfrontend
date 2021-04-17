@@ -1,0 +1,17 @@
+.subweather {
+  padding-top: 2rem;
+}
+.subweather h3 {
+  font-size: 2rem;
+}
+.subweather-grid {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-content: space-between;
+}
+.subweather-grid li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

@@ -3,6 +3,7 @@ import "./App.css";
 import { Search } from "./Content/Search/Search";
 import { Locationlist } from "./Content/Locationlist/Locationlist";
 import { LocationContext } from "./Context/LocationContext";
+import { SubWeather } from "./Content/SubWeather/SubWeather";
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
           <Locationlist />
         </div>
         <div className="app-subweather">
-          <h1>subweather</h1>
+          <SubWeather />
         </div>
         <div className="app-footer">
           <footer>
