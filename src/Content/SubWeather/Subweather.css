@@ -3,6 +3,8 @@
 }
 .subweather h3 {
   font-size: 2rem;
+  font-weight: 400;
+  padding-left: 1rem;
 }
 .subweather-grid {
   padding-left: 1rem;

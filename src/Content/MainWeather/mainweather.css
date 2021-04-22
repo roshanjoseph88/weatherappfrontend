@@ -1,0 +1,25 @@
+.mainweatherbar {
+  display: grid;
+  grid-template-areas:
+    "temp location icon"
+    "temp date date"
+    ". . .";
+  align-items: center;
+  max-width: fit-content;
+  margin-left: 2rem;
+}
+.mainweatherbar-temp {
+  grid-area: temp;
+  font-size: 8rem;
+}
+.mainweatherbar-gnlocation {
+  grid-area: location;
+  font-size: 4rem;
+}
+.mainweatherbar-icon {
+  grid-area: icon;
+}
+.mainweatherbar-date {
+  grid-area: date;
+  font-size: 2rem;
+}

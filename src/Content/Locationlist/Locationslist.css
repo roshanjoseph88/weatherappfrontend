@@ -2,5 +2,10 @@
 }
 
 .locationlist p {
-  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+.locationlist button {
+  color: inherit;
 }
